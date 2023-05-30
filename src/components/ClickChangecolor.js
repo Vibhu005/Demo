@@ -41,6 +41,7 @@ const ClickChangecolor = () => {
   const [showScreen, setShowScreen] = useState();
   //   console.log(showScreen, "show screen ");
   const openImage = (data) => {
+    console.log(data)
     setVisible(true);
     setShowScreen(data);
   };
