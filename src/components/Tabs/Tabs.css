@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Tabsdiv{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.Tbuttton{
+    font-weight: 400 !important;
+    font-family: 'Robot !important';
+    font-size: 16px !important;
+    text-transform: capitalize !important;
+    background-image: linear-gradient(to right, rgba(9, 49, 142, 0.726), rgba(174, 27, 223, 0.788)) !important;
+    /* background-color: rgb(14, 53, 65) !important; */
+    border: none !important;
+    margin-right: 10px !important;
+    /* color: rgb(51, 8, 206) !important; */
+}
+.MuiBox-root .MuiBox-root-11{
+    padding: 10px 0 0 0;
+}
+.MuiBox-root .MuiBox-root-14{
+    padding: 0;
+}
+.MuiBox-root .MuiBox-root-32{
+    padding: 0;
+}
+.MuiBox-root .MuiBox-root-35{
+    padding: 0;
+}
+.MuiBox-root .MuiBox-root-39{
+    padding: 0;
+}
+.MuiBox-root .MuiBox-root-36{
+    padding: 0;
+}

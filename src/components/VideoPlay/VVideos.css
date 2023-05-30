@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    
+}
+.vjs-poster{
+    border-radius: 50px;
+}
+.video .vjs-big-play-button{
+    background-color: aqua;
+}

@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontent{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(/src/assests/image/primelogo.jpg); */
+    background-size: cover;
+    display: flex;
+
+}
+.content{
+    width: 100%;
+    height: 94vh;
+    /* background-image: url(/public/assests/image/bg-1.jpg); */
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgb(68, 66, 94); */
+    overflow: auto;
+    padding: 10px;
+    /* filter: blur(5px); */
+  /* -webkit-filter: blur(8px); */
+    /* opacity: 40%; */
+    /* display: flex; */
+}
+.text{
+    color: rgb(200, 225, 247);
+}
+.play_video{
+    width: 400px;
+    height: 200px;
+    /* background-image: url(/src/assests/image/net-2.jpg); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 60px;
+    /* opacity: 0.6; */
+}
+.header-container{
+    width: 100%;
+    height: 6vh;
+    /* background-color: rgba(38, 173, 207, 0.87); */
+    background-image: linear-gradient(to right, rgb(9, 49, 142), rgb(174, 27, 223));
+    /* background-color: rgb(14, 53, 65); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    width: 115px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 24px;
+    /* background-image: url(/src/assests/image/prime-2logo.png); */
+    background-size: cover;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: unset;
+    cursor: pointer;
+    transition: all .3s;
+}
+nav ul li:hover{
+   transform: scale(1.3);
+}
+.sidebaar{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(190, 199, 113);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebaar button{
+    /* padding: 3px 10px; */
+    width: 200px;
+    background-color: rgb(25, 74, 129);
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 0px 2px 2px rgb(136, 133, 133);
+    transition: all .2s;
+}
+.sidebaar button:hover{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 0px 0px 2px rgb(136, 133, 133);
+    /* transform: rotateY(180deg); */
+    /* transform: rotate3d(180deg); */
+    transform: scale(1.3);
+    /* transform: skewX(50deg); */
+     /* transform: skew(20deg, 10deg); */
+      /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(38, 173, 207, 0.87);
+}
+.body-form{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(/src/assests/image/background_img.png); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 360px;
+    height: 550px;
+    background-color:rgba(240, 248, 255, 0.733);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.form .logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(/src/image/login.png);
+    background-size: cover;
+    margin-left: 154px;
+    margin-bottom: 10px;
+}
+.form h4{
+    color: gray;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 24px;
+    margin-left: 20px;
+}
+.form h3{
+    margin-top: 30px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 30px;
+        margin-left: 20px;
+}
+.form p{
+    color: gray;
+    margin-top: 5px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 20px;
+    margin-left: 20px;
+}
+.form input{
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color:white;
+    margin-left: 30px;
+}
+.form button{
+    margin-top: 8px;
+    padding: 3.5px 126px;
+    border-radius: 6px;
+    background-color: rgb(44, 92, 197);
+    color: aliceblue;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+.form h6{
+    margin-left: 65px;
+    color: gray;
+}
+.form i svg{
+    margin-left: -38px;
+}
+.form label{
+    margin-left: 30px;
+}
+.form span{
+    margin-left: 30px;
+    font-size: 14px;  
+    color: red;
+    
+}
+.sign-form{
+    width: 400px;
+    height: 700px;
+    background-color: rgba(240, 248, 255, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.sign-form input{
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color:white;
+    margin-left: 25px;
+}
+.sign-form button{
+    margin-top: 15px;
+    padding: 2px 113px;
+    border-radius: 6px;
+    background-color: rgb(44, 92, 197);
+    color: aliceblue;
+    margin-left: 25px;
+    margin-bottom: 30px;
+
+}
+.sign-form i svg{
+    margin-left: -38px;
+    margin-right: 22px;
+}
+
+.sign-form label{
+    margin-left: 30px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sign-form p{
+    color: gray;
+    margin-top: 5px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 20px;
+    margin-left: 10px;
+}
+.sign-form h3{
+    margin-top: 30px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 30px;
+        margin-left: 10px;
+}
+.sign-form h4{
+    color: gray;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 24px;
+    margin-left: 10px;
+}
+.sign-form .logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(/src/image/login.png);
+    background-size: cover;
+    margin-left: 144px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.sign-form span{
+    font-size: 12px;  
+    color: red;
+    
+}
+
+/* sidebaar */
+
+.sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        min-height: 100vh !important;
+        z-index: 100;
+        padding: 48px 0 0;
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    }
+    #sidebar-wrapper{
+        min-height: 100vh !important;
+        width: 100vw;
+        margin-left: -1rem;
+        -webkit-transition: margin .25s ease-out;
+        -moz-transition: margin .25s ease-out;
+        -o-transition: margin .25s ease-out;
+        transition: margin .25s ease-out;
+    }
+    #sidebar-wrapper .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+    }
+    
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    /* service..... */
+
+    .navigation{
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        bottom: 20px;
+        width: 260px;
+        border-radius: 15px;
+        box-sizing: initial;
+        background-color: rgb(64, 136, 165);
+    }
+    .navigation ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 40px;
+    }
+    .navigation ul li{
+        position: relative;
+        list-style: none;
+        width: 100%;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .navigation ul li .active{
+        background: aliceblue;
+    }
+    .navigation ul li a{
+        position: relative;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        color: aliceblue;
+    }
+    .navigation ul li a .icon{
+        position: relative;
+        display: block;
+        min-height: 60px;
+        height: 60px;
+        line-height: 70px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .navigation ul li a .icon svg{
+        font-size: 1.5rem;
+    }
+    .navigation ul li a .title{
+        position: relative;
+        display: block;
+        padding-left: 20px;
+        height: 60px;
+        line-height: 60px;
+        white-space: normal;
+        transition: all .5s;
+    }
+    .navigation ul li a .title:hover{
+        transform: scale(1.3);
+        color: black;
+    }
+    .navigation ul li.active{
+        background: aliceblue;
+    }
+    .navigation ul li.active a{
+        color: black;
+    }
+
+    /* sidebarlast.......................................................... */
+
+    .sidebarlast{
+        /* background-color: rgba(38, 173, 207, 0.87); */
+        background-image: linear-gradient(to bottom, rgb(9, 49, 142), rgb(174, 27, 223));
+        /* background-color: rgb(14, 53, 65); */
+        color: aliceblue;
+        height: 100vh;
+    }
+    .top_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10px;
+    }
+    .logo{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .serach_icon{
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        height: 30px;
+        padding: 10px;
+    }
+    .search input{
+        border: none;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(241, 237, 237);
+    }
+    .baars{
+        font-size: 20px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .baars:hover{
+        transform: scale(1.3);
+    }
+    .link{
+        display: flex;
+        color: aliceblue;
+        gap: 16px;
+        padding: 5px 10px;
+        transition: 0.2s cubic-bezier(0.6, -0.28,0.735, 0.045);
+        transition: all 0.5s;
+    }
+    .link:hover{
+        border-right: 5px solid white;
+        text-decoration: none;
+        transition: 0.1s cubic-bezier(0.6, -0.28,0.735, 0.045);
+        background: rgb(18, 18, 19);
+        color: aliceblue;
+        transform: scale(.8);
+    }
+    .icon{
+        font-size: 22px;
+    }
+    .link_text{
+        font-size: 17px;
+        white-space: nowrap;
+    }
+
+
+    /* Slider..------------------------------- */
+
+    .slide_container{
+        width: 400px;
+        height: 300px;
+        background-color: blueviolet;
+    }
+    .each_slide{
+        background-color: aqua;
+        width: 400px;
+        height: 200px;
+    }
+
+    /* FullviewImage--------------------------------- */
+    /* .images{
+        width: 300px;
+        height: 200px;
+        background-color: aqua;
+    } */
+    .ImageBox{
+        max-height: 600px;
+        width: 100%;
+        overflow: auto;
+    }
+    ul.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+  list-style: none;
+  margin: 0;
+  /* padding: 15px; */
+}
+
+ul.images > li {
+  position: relative;
+  padding-top: 66%;
+}
+
+ul.images > li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 20px; */
+
+
+}
+
+@media (max-width: 567px) {
+  ul.images {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/* ImageSelector------------------------- */
+.buttonpaper{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    /* max-height: 100vh; */
+}
+.ImageButton{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    padding: 15px;
+}
+.ViewPage{
+   /* min-height: 100vh; */
+   /* width: 100%; */
+}
+.ImageView{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.imageshow{
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px;
+}
+.btncolor{
+    color: aquamarine !important;
+    font-size: 40px !important;
+    /* background-color: blue !important; */
+}
+.changecolor{
+    color: rgb(52, 15, 201) !important;
+    font-size: 40px !important;
+    /* background-color: rgb(176, 176, 195) !important; */
+}
+.boxvisibal{
+    width: 77%;
+    height: 80vh;
+    background-color: rgb(66, 130, 159) !important;
+    padding: 20px;
+    position: absolute;
+    top: 130px;
+    left: 330px;
+}
+
+
+
+
