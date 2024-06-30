@@ -9674,7 +9674,12 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redux@^4.0.0, redux@^4.0.1, redux@>=3.0.0:
+redux-promise-listener@>=1.0.0:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/redux-promise-listener/-/redux-promise-listener-1.1.1.tgz"
+  integrity sha512-xMoRAHMS0ehqHp02Vi/EPyuT/L+CE7hg0p1PB1FxMOexmqJ31qKkspdl4exrWDEg0Lj+yRQVBnHHeiL24E8zmw==
+
+redux@^4.0.0, redux@^4.0.1, redux@>=3.0.0, redux@>3.0.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/redux/-/redux-4.2.0.tgz"
   integrity sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==
@@ -11064,6 +11069,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
+
+"typescript@^3.2.1 || ^4", typescript@^3.3.3333, "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  version "3.9.10"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-3.9.10.tgz"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"

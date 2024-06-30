@@ -103,7 +103,7 @@ export default function Logindata() {
               <div className="topline">
                 <PermContactCalendarIcon className="logoicon" />
                 <h3 style={{ color: "#dfdddd", marginBottom: "111px" }}>
-                  LogIn
+                  LogIn 
                 </h3>
                 {/* <Form.Field>
                 <Input
