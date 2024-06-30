@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Vapp = () => {
+const Vpp = () => {
   return (
     <div>Vapp</div>
   )
 }
 
-export default Vapp
+export default Vpp
